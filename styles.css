@@ -1,0 +1,61 @@
+/*.center {
+    margin: 0 auto;
+    display: block;
+}
+*/
+.center {
+    position:relative;	 
+    width:965px; 
+    height:1000px; 
+    margin:0px auto; 
+    text-align:center;
+}
+
+#buttonEnter {
+    background-color: rgb(233, 28, 32 );
+   
+    padding-left: 4rem;
+    padding-right: 3rem;
+}
+
+.navBar {
+    background-color: rgb(98, 12, 13);
+}
+
+.c {
+    margin: 1rem;
+    padding: 1rem;
+    /* IMPORTANTE */
+    text-align: center;
+}
+
+#center {
+    padding-left: 5rem;
+}
+
+.logo {
+    padding-left: 5rem;
+    padding-top: 2rem;
+}
+
+.textColorLogo {
+    color: rgb(98, 12, 13);
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(98, 12, 13) !important;
+    box-shadow: 0 1px 0 0 rgb(98, 12, 13) !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color:rgb(98, 12, 13) !important;
+}
+
+.buttonOk {
+    background-color: rgb(98, 12, 13);
+}
+
+.fondo {
+    
+}
